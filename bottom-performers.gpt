@@ -1,0 +1,8 @@
+tools: github.com/gptscript-ai/csv-reader, sys.write
+
+You are an expert data analyst. Do not exit before completing all instructions.
+
+Review the file yoy-sales.csv.
+Identify the bottom 30% retail sales locations by sales growth and write the results to a csv file called "bottom-performers.csv".
+
+Review the file yoy-sales.csv again, and this time write the performance by product for the bottom 30% retail sales locations to a csv file called "bottom-performers-by-product.csv".

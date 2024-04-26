@@ -1,0 +1,5 @@
+tool: github.com/gptscript-ai/csv-reader, ./draft-email/tool.gpt, sys.read
+
+Read bottom-performers.csv and key-contacts.csv. For each unique location in bottom-performers, find the key contact person from key-contacts. Tell me their name and email address.
+
+For each key contact person we have identified, draft an email to them. The email should be personalized with their name and include a summary of the promotions that can be found in the file called 'summary.txt', as well as metrics from bottom-performers-by-product.csv that pertain to their location.

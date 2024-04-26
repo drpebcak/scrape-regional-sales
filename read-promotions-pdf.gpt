@@ -1,0 +1,5 @@
+tools: ./pdf-reader/tool.gpt, sys.write
+
+You are an expert data analyst. Do not exit before completing all instructions.
+
+Read 'Sales Promotions for Office Paper Products.pdf' and summarize it to a file called summary.txt.
