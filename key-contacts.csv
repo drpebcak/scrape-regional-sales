@@ -1,11 +1,11 @@
-location,name,email
-Scranton PA, Dwight, oscar@acorn.io
-Stamford CT, Jim, jim@acorn.io
-Nashua NH, Pam, pam@acorn.io
-Utica NY, Michael, michael@acorn.io
-Albany NY, Ryan, ryan@acorn.io
-Akron OH, Kelly, kelly@acorn.io
-Camden NJ, Andy, andy@acorn.io
-Yonkers NY, Angela, angela@acorn.io
-Rochester NY, Kevin, kevin@acorn.io
-Syracuse NY, Erin, erin@acorn.io
+location,name
+Scranton PA, One
+Stamford CT,Two
+Nashua NH,Three
+Utica NY,Four
+Albany NY,One
+Akron OH,Two
+Camden NJ,Three
+Yonkers NY,Four
+Rochester NY,One
+Syracuse NY,Two

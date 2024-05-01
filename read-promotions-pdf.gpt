@@ -1,4 +1,4 @@
-tools: ./pdf-reader/tool.gpt, sys.write
+tools: github.com/drpebcak/pdf-reader, sys.write
 
 You are an expert data analyst. Do not exit before completing all instructions.
 

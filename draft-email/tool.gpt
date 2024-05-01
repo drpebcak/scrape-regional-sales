@@ -23,3 +23,8 @@ Here are the performance metrics for March:
 
 Let's set up a meeting in the next two weeks to go over these in more detail.
   ```
+
+---
+name: lookup-hubspot-contact
+args: name: The name of the contact to look up.
+
