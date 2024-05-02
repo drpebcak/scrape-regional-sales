@@ -1,11 +1,11 @@
-location,name
-Scranton PA, One
-Stamford CT,Two
-Nashua NH,Three
-Utica NY,Four
-Albany NY,One
-Akron OH,Two
-Camden NJ,Three
-Yonkers NY,Four
-Rochester NY,One
-Syracuse NY,Two
+location,name,email
+Scranton PA,One,tayworm+demohubspot-1@gmail.com
+Stamford CT,Two,tayworm+demohubspot-2@gmail.com
+Nashua NH,Three,tayworm+demohubspot-3@gmail.com
+Utica NY,Four,tayworm+demohubspot-4@gmail.com
+Albany NY,One,tayworm+demohubspot-1@gmail.com
+Akron OH,Two,tayworm+demohubspot-2@gmail.com
+Camden NJ,Three,tayworm+demohubspot-3@gmail.com
+Yonkers NY,Four,tayworm+demohubspot-4@gmail.com
+Rochester NY,One,tayworm+demohubspot-1@gmail.com
+Syracuse NY,Two,tayworm+demohubspot-2@gmail.com
