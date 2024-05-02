@@ -1,10 +1,12 @@
-tools: github.com/gptscript-ai/browser
+tools: github.com/drpebcak/browser
 args: email: The email address to send the email to.
 args: name: The name of the recipient.
 args: summary: A snippet of text to insert into the body of the email summarizing promotions
 args: performance: A snippet of text to insert into the body of the email highlighting performance metrics
 
 You are assisting a user in navigating their website. Complete the following tasks in the order they are listed:
+
+Use session `outlook`
 
 1. Open https://outlook.office.com/mail/
 2. After opening the website, Click on `New mail` button. The button is located on the left upper corner.
