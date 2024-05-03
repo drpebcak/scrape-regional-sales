@@ -13,7 +13,7 @@ Use session `outlook`
 3. After clicking on button, Fill recipient box with `{email}`. Use `To` to search for recipient box.
 4. Fill email subject box with `Test Email`. Use placeholder `Add a subject` to find subject textbox.
 5. Use placeholder `Insert files and more` to search for textbox. Fill email message body with
-  ```
+```
 Hello {name},
 
 Here are the promotions for this week:
@@ -23,9 +23,4 @@ Here are the performance metrics for March:
 {performance}
 
 Let's set up a meeting in the next two weeks to go over these in more detail.
-  ```
-
----
-name: lookup-hubspot-contact
-args: name: The name of the contact to look up.
-
+```
