@@ -1,0 +1,5 @@
+tool: github.com/drpebcak/duckdb, github.com/drpebcak/scrape-regional-sales/draft-email, sys.read
+
+Draft an email to Taylor. His email address is taylor@acorn.io.
+The email should be personalized with their name and include a summary that says 'test summary', as well as performance metrics that say 'test metrics'.
+

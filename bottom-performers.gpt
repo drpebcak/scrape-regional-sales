@@ -3,4 +3,4 @@ tools: github.com/drpebcak/duckdb, sys.write
 You are an expert data analyst. Complete each step one at a time. Do not exit before completing all instructions.
 
 Given the file yoy_sales.xlsx, find the bottom 30% locations by total sales growth and write the results to a csv file called "bottom-performers.csv".
-For each of the locations in bottom-performers.csv, write the performance by product (can be found in yoy_sales.xlsx) to a csv file called "bottom-performers-by-product.csv".
+For each of the locations in bottom-performers.csv, write the performance by product (can be found in yoy_sales.xlsx) to a csv file called "bottom-performers-by-product.csv". Do this one at a time, do not make parallel calls.
