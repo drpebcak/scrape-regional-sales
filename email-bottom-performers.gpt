@@ -1,7 +1,0 @@
-tool: github.com/drpebcak/duckdb, github.com/drpebcak/scrape-regional-sales/draft-email, sys.read
-
-For each unique location in 'bottom-performers.csv', find the key contact person from 'key-contacts.csv'. Tell me their name and email address.
-
-Loop over each key contact person we have identified one at a time and draft an email to them.
-The email should be personalized with their name and include a summary of the promotions that can be found in the file called 'summary.txt', as well as performance metrics from bottom-performers-by-product.csv that pertain to their location.
-Wait for the draft-email tool to return before moving on to the next key contact person.

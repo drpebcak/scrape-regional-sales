@@ -1,10 +1,15 @@
-tools: github.com/drpebcak/browser
+tool: sys.find, sys.read, draft-email
+
+Read each of the files *-email.txt in the current directory, and one by one use the contents of the file to draft an email. Do not move on to the next draft until the previous one is completed.
+
+---
 name: draft-email
+tools: github.com/drpebcak/browser
 description: This tool interacts with the browser to create draft emails in outlook. It cannot run in parallel with other invocations of itself. Always wait for it to complete before calling it again.
 args: email: The email address to send the email to.
 args: name: The name of the recipient.
-args: summary: A snippet of text to insert into the body of the email summarizing promotions
-args: performance: A snippet of text to insert into the body of the email highlighting performance metrics
+args: subject: A snippet of text to use as the subject of the email
+args: body: A snippet of text to use as the body of the email
 
 You are assisting a user in navigating their website. Complete the following tasks in the order they are listed:
 
@@ -13,16 +18,5 @@ Use session `outlook`
 1. Open https://outlook.office.com/mail/
 2. After opening the website, Click on `New mail` button. The button is located on the left upper corner.
 3. After clicking on button, Fill recipient box with `{email}`. Use `To` to search for recipient box.
-4. Fill email subject box with `Test Email`. Use placeholder `Add a subject` to find subject textbox.
-5. Use placeholder `Insert files and more` to search for textbox. Fill email message body with
-```
-Hello {name},
-
-Here are the promotions for this week:
-{summary}
-
-Here are the performance metrics for March:
-{performance}
-
-Let's set up a meeting in the next two weeks to go over these in more detail.
-```
+4. Fill email subject box with `{subject}`. Use placeholder `Add a subject` to find subject textbox.
+5. Use placeholder `Insert files and more` to search for textbox. Fill email message body with {body}

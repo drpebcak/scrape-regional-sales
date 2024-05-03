@@ -1,0 +1,3 @@
+tools: github.com/drpebcak/duckdb, sys.write, sys.read
+
+Get all the products and their sales growth in yoy_sales.xlsx for the locations listed in bottom-performers.txt. Write it to a file called "bottom-performers-by-product.txt". Organize the file as a bulleted list by location.
