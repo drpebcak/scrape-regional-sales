@@ -1,4 +1,5 @@
 tools: github.com/drpebcak/browser
+name: draft-email
 description: This tool cannot run in parallel
 args: email: The email address to send the email to.
 args: name: The name of the recipient.
